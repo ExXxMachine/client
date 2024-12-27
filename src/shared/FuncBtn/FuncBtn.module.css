@@ -1,0 +1,26 @@
+.btn__container {
+	font-family: 'Gilroy', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 70%;
+	height: 90px;
+	border-radius: 20px;
+	background-color: #9b51e0;
+  margin: 15px 0;
+	border: #9b51e0 solid 3px;
+	color: aliceblue;
+	transition: background-color 0.3s, border 0.3s;
+}
+
+.btn__container:hover {
+	background-color: #904ccf;
+  border: #904ccf solid 3px;
+}
+
+.btn__container:focus {
+	background-color: #703aa2;
+  border: #904ccf solid 3px;
+}

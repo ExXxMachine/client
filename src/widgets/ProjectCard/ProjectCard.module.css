@@ -1,0 +1,22 @@
+.projectCard__container {
+	font-family: 'Gilroy', sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 70%;
+	height: 90px;
+	border-radius: 20px;
+	border: #9b51e0 solid 3px;
+	margin: 15px 0;
+	padding: 20px 90px;
+	transition: transform 0.2s, background-color 0.2s;
+  color: black;
+}
+
+.projectCard__container:hover {
+	color: aliceblue;
+	background-color: #9b51e0;
+	transform: translateY(-5px);
+}

@@ -1,0 +1,1 @@
+export {FuncBtn} from './FuncBtn/FuncBtn'

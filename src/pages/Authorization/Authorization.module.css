@@ -1,0 +1,146 @@
+.container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.login__block {
+	font-family: 'Gilroy', sans-serif;
+	font-weight: 700;
+	color: #ffffff;
+	width: 500px;
+	height: 550px;
+	background-color: #9b51e0af;
+	border: 2px solid #9b51e0;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 60px 0;
+}
+h1{
+	font-size: 35px;
+	font-weight: 900;
+	letter-spacing: 3px;
+}
+form {
+	display: flex;
+	font-weight: 300;
+	margin-top: 5%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 90%;
+}
+
+input {
+	margin-bottom: 20px;
+	width: 80%;
+	border: none; /* Исправлено на 'none' */
+}
+
+.login__h1 {
+	font-family: 'Gilroy-Bold';
+	font-size: 55px;
+	color: aliceblue;
+}
+
+.form__group {
+	position: relative;
+	padding: 15px 0 0;
+	width: 70%;
+}
+
+.form__field {
+	font-family: inherit;
+	width: 100%;
+	border-bottom: 2px solid rgb(255, 255, 255);
+	outline: none;
+	font-size: 1.3rem;
+	color: #fff;
+	padding: 7px 0;
+	background: transparent;
+}
+
+.form__field::placeholder {
+	color: transparent;
+}
+
+.form__field:placeholder-shown ~ .form__label {
+	font-size: 25px;
+	cursor: text;
+	top: 20px;
+}
+
+.form__label {
+	position: absolute;
+	top: 0;
+	display: block;
+	transition: 0.2s;
+	font-size: 0.8rem;
+	color: #fff;
+}
+
+.form__field:focus ~ .form__label {
+	position: absolute;
+	top: -10px;
+	display: block;
+	transition: 0.2s;
+	font-size: 0.8rem;
+	color: #fff;
+}
+
+.form__field.focused {
+	padding-bottom: 6px;
+	border-width: 3px;
+}
+
+/* reset input */
+.form__field {
+	&:required,
+	&:invalid {
+		box-shadow: none;
+	}
+}
+
+.login__ico {
+	position: absolute;
+	width: 10%;
+	height: auto;
+	right: 0;
+	filter: invert(100%);
+}
+
+.login__btn {
+	font-family: 'Gilroy', sans-serif;
+	width: 71%;
+	height: 50px;
+	font-weight: 500;
+	font-size: 25px;
+	border-radius: 15px;
+	margin-top: 15%;
+	color: #515151;
+	background-color: #fff;
+	border: none;
+	letter-spacing: 3px;
+	transition:background 0.3s ease, color 0.3s ease;
+}
+
+.login__btn:hover {
+	background-color: #d6d6d6;
+	color: #818181;
+}
+
+a.login__regLink {
+	color: #fff;
+	margin-top: 0.5rem;
+	text-decoration: none;
+	font-size: 15px; 
+	margin: 30px 0 0 0;
+}
+a.login__regLink:hover{
+	text-decoration: underline;
+}

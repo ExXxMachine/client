@@ -1,0 +1,20 @@
+.project__block ul{
+  list-style: none;
+  padding: 0;
+}
+.project__block li{
+  margin: 0;
+}
+.project__block h2{
+  font-family: 'Gilroy', sans-serif;
+	font-weight: 500;
+  font-size: 35px;
+  width: 80vw;
+}
+.project__block{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0 0 0;
+}

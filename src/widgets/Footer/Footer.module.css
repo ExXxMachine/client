@@ -1,0 +1,25 @@
+.container {
+	height: 100px;
+	width: 100vw;
+	background-color: #9b51e0;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 5%;
+	align-items: center;
+	color: #ffffff;
+	font-family: 'Gilroy', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+}
+
+.footer__githubIco {
+	width: auto;
+	height: 60%;
+	filter: invert(100%);
+}
+.footer__github {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}

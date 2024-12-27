@@ -1,0 +1,26 @@
+.projectList__container {
+	width: 100vw;
+	height: auto;
+	min-height: 90vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  margin: 10vh 0;
+}
+
+.headers__block {
+	display: flex;
+	align-items: end;
+	justify-content: space-between;
+  padding: 20px 90px 0 90px;
+	width: 70%;
+	height: 90px;
+	border-radius: 20px;
+	margin: 15px 0;
+}
+
+.headers__block h1{
+  font-family: 'Gilroy', sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+}

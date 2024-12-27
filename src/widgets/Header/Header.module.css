@@ -1,0 +1,37 @@
+.container {
+	height: 100px;
+	width: 100vw;
+	background-color: #9b51e0;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 5%;
+	align-items: center;
+}
+
+.headerIcon {
+	width: 80px;
+}
+
+.navMenu {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+.navLink {
+	background: none;
+	white-space: nowrap;
+	color: inherit;
+	border: none;
+	font-family: 'Gilroy', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	color: #ffffff;
+	transition: color 0.3s ease;
+	margin: 0 20px 0 20px;
+}
+
+.navLink:hover {
+	color: #bfbfbf;
+	text-decoration: underline;
+}

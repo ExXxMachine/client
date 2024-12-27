@@ -1,0 +1,44 @@
+.container {
+    padding: 2vh 10% 10vh 5%;
+    position: relative;
+    width: 100%;
+}
+
+.mainPage__part {
+    font-family: 'Gilroy', sans-serif; 
+    font-weight: 300; 
+    margin: 2%;
+    font-size: 18px;
+}
+
+.mainPage__h2 {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700; 
+    margin: 5% 0 0 2%;
+    font-size: 30px;
+}
+
+ul.mainPage__list {
+    font-family: 'Gilroy', sans-serif; 
+    font-weight: 300;
+    margin: 2%;
+    font-size: 18px;
+}
+
+li {
+    margin: 1%;
+}
+
+li.mainPage__none-style {
+    list-style-type: none;
+}
+
+@media screen and (max-width: 915px) {
+    .mainPage__h2 {
+        margin: 10% 0;
+    }
+    
+    ul.mainPage__list {
+        margin: 10% 0;
+    }
+}
